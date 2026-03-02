@@ -9,6 +9,6 @@ Download llm-privacy-guard.zip.
 5. Select the unzipped folder
 
 ### Notes
-They must keep the folder (Edge loads from disk; don’t delete it).  
-Updates = send new zip; they replace folder and click Reload.  
+You must keep the folder (Edge loads from disk; don’t delete it).  
+For updates = come back and download new zip; then replace folder and click Reload in browser extensions.
   
