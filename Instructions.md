@@ -7,8 +7,8 @@ cd llm-privacy-guard
 ```
 
 ### Option B – Download ZIP
-Click Code → Download ZIP
-Extract
+Click Code → Download ZIP  
+Extract  
 Open folder in VS Code
 
 ## 2. Install TypeScript
@@ -31,21 +31,22 @@ Open: extensions on your browser
 ```
 edge //extensions
 ```
-Enable Developer Mode
-Click Load Unpacked
-Select your project folder
-Click Reload if needed
+Enable Developer Mode  
+Click Load Unpacked  
+Select your project folder  
+Click Reload if needed  
 
 ## 5. Test it
-Open:
-https://chatgpt.com/
+Open:  
+https://chatgpt.com/  
 Paste:
 ```
 Here is my key: sk-1234567890abcdef1234567890abcdef
 ```
-Press Enter
-You should see the Privacy Guard modal.
-Nothing will be sent until you choose:
-Redact & Continue
-Proceed Anyway
-Cancel
+Press Enter  
+You should see the Privacy Guard modal.  
+Nothing will be sent until you choose:  
+Redact & Continue  
+Proceed Anyway  
+Cancel  
+
