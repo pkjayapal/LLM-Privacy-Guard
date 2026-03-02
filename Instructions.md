@@ -27,8 +27,10 @@ content.js
 ```
 
 ## 4.  Load Extension in Microsoft Edge or Chrome (or Other browser)
-Open:
-//extensions
+Open: extensions on your browser 
+```
+edge //extensions
+```
 Enable Developer Mode
 Click Load Unpacked
 Select your project folder
