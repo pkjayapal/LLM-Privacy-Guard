@@ -50,3 +50,55 @@ Redact & Continue
 Proceed Anyway  
 Cancel  
 
+
+## Project Structure
+
+llm-privacy-guard/
+│
+├── src/manifest.json
+├── src/content.ts
+├── src/content.js (generated from npx tsc)
+├── src/tsconfig.json
+├── TEST_PLAN.md
+├── Instructions.md
+└── README.md
+
+## 🧠 Design Principles
+Zero trust for outbound prompts  
+Least privilege  
+High-signal detection only (low false positives)  
+No black box  
+Fully local  
+
+## 🔮 Future Enhancements
+
+Hard block mode for BLOCK findings  
+Per-site allowlist  
+Toggle in extension popup  
+Enterprise policy-as-code support  
+Support for additional LLM sites  
+Centralized logging (optional enterprise mode)  
+
+## ⚠️ Known Limitations (MVP)
+
+Currently optimized for chatgpt.com  
+DOM selectors may require updates if UI changes  
+Does not scan file uploads  
+No server-side protection (browser-only)  
+
+## 📜 License
+
+MIT License
+
+## 🙌 Contributing
+
+Fork the repo  
+Create feature branch  
+Submit PR  
+
+## 🛡️ Disclaimer
+
+This is a lightweight privacy guard tool.  
+It reduces accidental leakage of secrets but does not replace enterprise DLP systems.  
+
+
